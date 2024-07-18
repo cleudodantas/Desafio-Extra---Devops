@@ -48,29 +48,29 @@ adminuser@<IP_PUBLICO>
 
 # Recursos Criados
 
-.Grupo de Recursos
+-Grupo de Recursos
 
-.Rede Virtual
+-Rede Virtual
 
-.Sub-rede
+-Sub-rede
 
-.Endereço IP Público
+-Endereço IP Público
 
-.Interface de Rede
+-Interface de Rede
 
-.Máquina Virtual
+-Máquina Virtual
 
-.Grupo de Segurança de Rede
+-Grupo de Segurança de Rede
 
-.Regras de Segurança de Rede
+-Regras de Segurança de Rede
 
-.Associação de Grupo de Segurança à Interface de Rede
+-Associação de Grupo de Segurança à Interface de Rede
 
-.Extensão de Máquina Virtual para instalação do Docker e Docker Compose
+-Extensão de Máquina Virtual para instalação do Docker e Docker Compose
 
-.Provisionamento de arquivos e execução remota
+-Provisionamento de arquivos e execução remota
 
-.Limpeza
+-Limpeza
 
 # Para destruir os recursos criados pelo Terraform, execute:
 
