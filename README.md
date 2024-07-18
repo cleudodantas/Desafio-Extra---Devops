@@ -37,6 +37,7 @@ terraform plan
 6. Aplique o plano do Terraform para provisionar a infraestrutura:
 
 terraform apply
+
 Digite yes quando solicitado para confirmar a execução.
 
 7. Acesse a máquina virtual:
@@ -45,21 +46,35 @@ Após a conclusão, o endereço IP público da VM será exibido como saída. Use
 
 adminuser@<IP_PUBLICO>
 
-Recursos Criados
-Grupo de Recursos
-Rede Virtual
-Sub-rede
-Endereço IP Público
-Interface de Rede
-Máquina Virtual
-Grupo de Segurança de Rede
-Regras de Segurança de Rede
-Associação de Grupo de Segurança à Interface de Rede
-Extensão de Máquina Virtual para instalação do Docker e Docker Compose
-Provisionamento de arquivos e execução remota
-Limpeza
+#Recursos Criados
 
-Para destruir os recursos criados pelo Terraform, execute:
+.Grupo de Recursos
+
+.Rede Virtual
+
+.Sub-rede
+
+.Endereço IP Público
+
+.Interface de Rede
+
+.Máquina Virtual
+
+.Grupo de Segurança de Rede
+
+.Regras de Segurança de Rede
+
+.Associação de Grupo de Segurança à Interface de Rede
+
+.Extensão de Máquina Virtual para instalação do Docker e Docker Compose
+
+.Provisionamento de arquivos e execução remota
+
+.Limpeza
+
+#Para destruir os recursos criados pelo Terraform, execute:
+
 terraform destroy
+
 Digite "yes" quando solicitado para confirmar a destruição.
 
