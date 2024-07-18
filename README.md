@@ -18,23 +18,29 @@ Este repositório contém um script Terraform para provisionar uma infraestrutur
    cd <NOME_DA_PASTA>
    
 2. Crie um arquivo main.tf:
+ 
 Copie o código Terraform fornecido e cole no arquivo main.tf.
 
 3. Crie arquivos adicionais:
+ 
 docker-compose.yml: Contendo a configuração do Docker Compose.
 Dockerfile: Contendo as instruções para construir sua imagem Docker.
 
 4. Inicialize o Terraform:
+
 terraform init
 
 5. Revise o plano de execução do Terraform:
+   
 terraform plan
 
 6. Aplique o plano do Terraform para provisionar a infraestrutura:
+
 terraform apply
 Digite yes quando solicitado para confirmar a execução.
 
 7. Acesse a máquina virtual:
+   
 Após a conclusão, o endereço IP público da VM será exibido como saída. Use este IP para se conectar à VM:
 
 adminuser@<IP_PUBLICO>
