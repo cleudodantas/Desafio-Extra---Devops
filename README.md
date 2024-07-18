@@ -17,36 +17,36 @@ Este repositório contém um script Terraform para provisionar uma infraestrutur
    git clone <URL_DO_REPOSITORIO>
    cd <NOME_DA_PASTA>
    
-2. Crie um arquivo main.tf:
+2.**Crie um arquivo main.tf:**
  
 Copie o código Terraform fornecido e cole no arquivo main.tf.
 
-3. Crie arquivos adicionais:
+3. **Crie arquivos adicionais:**
  
 docker-compose.yml: Contendo a configuração do Docker Compose.
 Dockerfile: Contendo as instruções para construir sua imagem Docker.
 
-4. Inicialize o Terraform:
+4. **Inicialize o Terraform:**
 
-terraform init
+```terraform init```
 
-5. Revise o plano de execução do Terraform:
+5. **Revise o plano de execução do Terraform:**
    
-terraform plan
+```terraform plan```
 
-6. Aplique o plano do Terraform para provisionar a infraestrutura:
+6. **Aplique o plano do Terraform para provisionar a infraestrutura:**
 
-terraform apply
+```terraform apply```
 
 Digite yes quando solicitado para confirmar a execução.
 
-7. Acesse a máquina virtual:
+7. **Acesse a máquina virtual:**
    
 Após a conclusão, o endereço IP público da VM será exibido como saída. Use este IP para se conectar à VM:
 
 adminuser@<IP_PUBLICO>
 
-#Recursos Criados
+# Recursos Criados
 
 .Grupo de Recursos
 
@@ -72,9 +72,9 @@ adminuser@<IP_PUBLICO>
 
 .Limpeza
 
-#Para destruir os recursos criados pelo Terraform, execute:
+# Para destruir os recursos criados pelo Terraform, execute:
 
-terraform destroy
+```terraform destroy```
 
 Digite "yes" quando solicitado para confirmar a destruição.
 
